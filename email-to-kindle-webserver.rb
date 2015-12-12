@@ -2,6 +2,7 @@
 require 'gmail'
 require 'sinatra'
 require 'base64'
+Net::IMAP::debug = true
 
 $gmail_login = ARGV[0]
 $gmail_password = ARGV[1]
